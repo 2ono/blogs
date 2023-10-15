@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "../styles/globals.css";
+import Link from 'next/link';
 
 export default function RootLayout({
   children,
@@ -20,6 +21,9 @@ export default function RootLayout({
         <Link href="/">
           <h1 className="text-2xl text-white font-bold mt-4">Henry's Blog</h1>
         </Link>
+        <Link href="/app-ads.txt">
+        <a>app-ads.txt</a>
+      </Link>
         <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
       </div>
     </header>
